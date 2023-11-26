@@ -19,20 +19,4 @@ describe('Succesfull authorization', () => {
 
   })
 
-
-  //     loginPage.visit();
-  //     loginPage.getWelcomeBannerLogField().click({ force: true });
-  //     loginPage.fillAuthorizationFields(user);
-  //     loginPage.elements.getRememberCheckboxField().check({force: true});
-  //     loginPage.elements.getLoginButtonField().click();
-
-  //     cy.log('Verify Search page is opened...');
-  //     cy.url().should('eq', 'https://juice-shop-sanitarskyi.herokuapp.com/baseUrl#/search');
-  // })
-
-  // it('Authorization with invalid password', () => {
-
-  //     user.email = faker.lorem.word({ length: { min: 8, max: 10 }, strategy: 'fail' });
-  //     login(user);
-
 })
